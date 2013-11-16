@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+/** {
+            border: 1px solid blue;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}*/
+* {
+    margin: 0;
+}
+html, body {
+	background-color: #efdd6f;
+	height=100%;
+}
+/*#wrap{
+	min-height: 100%;
+}
+#main{
+	overflow:auto;
+padding-bottom: 35px;
+}*/
+.navbar{
+/*border-bottom:  3px solid black;*/
+/*text-align: center;
+*/background-image:url("images/bottles1.jpg");/*patch.JPG");*/
+background-repeat:repeat-x;/*background-repeat;*/
+}
+.logo{
+	width: 250px;
+}
+
+.nav_item{
+	margin: 0 auto;
+	padding-top: 70px;
+}
+.nav_text{
+	padding-top: 70px;
+	color: #fbea74;
+	font-family: 'Roboto:400,900';
+    font-size: 26px;
+}
+.nav_text:hover{
+	color:white;
+	text-shadow: 4px -4px #b6212d;
+	font-size: 28px;
+}
+.food_pic{
+	border-radius: 20%;
+	/*margin-top: -30px; negative margin are not working with resposive design*/ 
+border-color: #b6212d;
+border-width: 6px;
+border-style: solid;
+margin: 5px;
+}
+p{
+	text-align: center;
+}
+#face{
+	padding-right: 5px;
+}
+#footer{
+	/*position:relative;
+	margin-top: -35px;
+	height: 35px;
+	clear: both;*/
+text-align: center;
+}
+/*/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}*/
